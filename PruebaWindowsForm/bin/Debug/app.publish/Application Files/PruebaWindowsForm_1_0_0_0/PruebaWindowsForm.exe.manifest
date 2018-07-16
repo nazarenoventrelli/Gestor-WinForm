@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PruebaWindowsForm.exe" version="1.0.0.0" publicKeyToken="56f7ad0c878d2cf6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PruebaWindowsForm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PruebaWindowsForm.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de UAC
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar Virtualización de archivos y Registro para compatibilidad con 
+         versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5225168">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nCD7KthqdgsMauvZMByQCYkdAq4UcgqTkmwLU1uK0Js=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="622288">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4OEmw7inupUB0D+Z1Upcu9F0vOy2FwCYq0zBIZ8n+TM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PruebaWindowsForm.exe" size="53752">
+      <assemblyIdentity name="PruebaWindowsForm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Z/UQz45hkcAy+C68GtpmRthmz15oPp6TJ9dzCLR5nyU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ModeloTest.Context.tt" size="22934">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nPrB+TQ8bb5pGzUEatbh4Ut40U7dpnxtdHQJPIIQ2Zw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ModeloTest.tt" size="25279">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UkXjfqBhK8py3vtLSFK2sgTq4NSa8NRzrgi6tVUb4Vs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PruebaWindowsForm.exe.config" size="1800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Pimj7n7JXgY3wY3R2oe65Tp8cLkZ91UOg7kxw0F3k3Q=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Nazareno-PC\Nazareno" issuerKeyHash="584bf35e19caef04ca9429923082e63b67546560" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VGdGkWroN/gQ/naF5ksGcvyKKKdwmC9EScG5ct2cwMg=</DigestValue></Reference></SignedInfo><SignatureValue>XWKzFTRabwgLJ3anzPOKKP/XUqVhiECuZ+kOKSsya5mzyDIzBHGmtCLJ3aa72jt2t9ZUCLVNqccXVWZpK1k8ZhUViMUicYlmcg9xPSp+UHH4vJZAvCA7ezK9k8dVpbP4hSvVZhATBu73yfFcd3olnOtjSnr7cizkBOkeXgt7IVo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nX89LtaCKv44aG8j/dBWImF7FLa4acLfhH0+d0GBa3lZKtk3gdEWmEfr2C55oVbAPUP6AV2r2YZdqvVlI984RlykgqpnPhTt+gLi3IAyEWPhbCb2d8ujt154TBc6erXoi24PeRkjnm4xyHvlkGn7XvrqddS46fkt7mBwzdafnsk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c8c09cdd72b9c149442f9870a7288afc72064be68576fe10f837e86a91466754" Description="" Url=""><as:assemblyIdentity name="PruebaWindowsForm.exe" version="1.0.0.0" publicKeyToken="56f7ad0c878d2cf6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Nazareno-PC\Nazareno</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Rr2YEFBtiVOx4US680fWu3tGPB4CFwklC/jtmqzb7fE=</DigestValue></Reference></SignedInfo><SignatureValue>KjrQW1xzteOk5rvV4IDoyerduSWfExOF6L894YwcNDOOpMuX7IM2eNVkvoLxL8P2DBfZ23c6+/QQsH2j7T+LOLtE1rulk6XuVp8A4fLz6jWwvve1H5+7e98lRWS610aAXg4xE3TTfZH1E1Cf0KAorCSonX8s/p83ei9SiFp88VQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nX89LtaCKv44aG8j/dBWImF7FLa4acLfhH0+d0GBa3lZKtk3gdEWmEfr2C55oVbAPUP6AV2r2YZdqvVlI984RlykgqpnPhTt+gLi3IAyEWPhbCb2d8ujt154TBc6erXoi24PeRkjnm4xyHvlkGn7XvrqddS46fkt7mBwzdafnsk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQSV+IbEOEwZFJklcqA2UktjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATgBhAHoAYQByAGUAbgBvAC0AUABDAFwATgBhAHoAYQByAGUAbgBvMB4XDTE4MDcxNjE1NDEyNFoXDTE5MDcxNjIxNDEyNFowMzExMC8GA1UEAx4oAE4AYQB6AGEAcgBlAG4AbwAtAFAAQwBcAE4AYQB6AGEAcgBlAG4AbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAnX89LtaCKv44aG8j/dBWImF7FLa4acLfhH0+d0GBa3lZKtk3gdEWmEfr2C55oVbAPUP6AV2r2YZdqvVlI984RlykgqpnPhTt+gLi3IAyEWPhbCb2d8ujt154TBc6erXoi24PeRkjnm4xyHvlkGn7XvrqddS46fkt7mBwzdafnskCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAgjISUgMnVXlnzN4LRxexPqNoIwXxG72B9LT9SyHrYVqvTgGyKsI0+Xx7AZOT7p15k5qTDWCCauBPhZSs154vu5W+2KOMd0l01oBS/2AVlp/3Ze2Ly87tp25Z3lkRQRehXRbT7XgBgCXis60ZKiLoRnYTy6zU4rFFJ/R8jqiY57g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

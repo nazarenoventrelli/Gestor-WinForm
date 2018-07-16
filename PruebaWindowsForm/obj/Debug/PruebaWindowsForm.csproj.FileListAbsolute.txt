@@ -1,0 +1,15 @@
+C:\Users\Nazareno\source\repos\Pruebas Windows form\PruebaWindowsForm\PruebaWindowsForm\bin\Debug\PruebaWindowsForm.exe.config
+C:\Users\Nazareno\source\repos\Pruebas Windows form\PruebaWindowsForm\PruebaWindowsForm\bin\Debug\PruebaWindowsForm.exe
+C:\Users\Nazareno\source\repos\Pruebas Windows form\PruebaWindowsForm\PruebaWindowsForm\bin\Debug\PruebaWindowsForm.pdb
+C:\Users\Nazareno\source\repos\Pruebas Windows form\PruebaWindowsForm\PruebaWindowsForm\obj\Debug\PruebaWindowsForm.csprojAssemblyReference.cache
+C:\Users\Nazareno\source\repos\Pruebas Windows form\PruebaWindowsForm\PruebaWindowsForm\obj\Debug\PruebaWindowsForm.Form1.resources
+C:\Users\Nazareno\source\repos\Pruebas Windows form\PruebaWindowsForm\PruebaWindowsForm\obj\Debug\PruebaWindowsForm.Properties.Resources.resources
+C:\Users\Nazareno\source\repos\Pruebas Windows form\PruebaWindowsForm\PruebaWindowsForm\obj\Debug\PruebaWindowsForm.csproj.GenerateResource.cache
+C:\Users\Nazareno\source\repos\Pruebas Windows form\PruebaWindowsForm\PruebaWindowsForm\obj\Debug\PruebaWindowsForm.csproj.CoreCompileInputs.cache
+C:\Users\Nazareno\source\repos\Pruebas Windows form\PruebaWindowsForm\PruebaWindowsForm\obj\Debug\PruebaWindowsForm.exe
+C:\Users\Nazareno\source\repos\Pruebas Windows form\PruebaWindowsForm\PruebaWindowsForm\obj\Debug\PruebaWindowsForm.pdb
+C:\Users\Nazareno\source\repos\Pruebas Windows form\PruebaWindowsForm\PruebaWindowsForm\bin\Debug\EntityFramework.dll
+C:\Users\Nazareno\source\repos\Pruebas Windows form\PruebaWindowsForm\PruebaWindowsForm\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nazareno\source\repos\Pruebas Windows form\PruebaWindowsForm\PruebaWindowsForm\bin\Debug\EntityFramework.xml
+C:\Users\Nazareno\source\repos\Pruebas Windows form\PruebaWindowsForm\PruebaWindowsForm\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nazareno\source\repos\Pruebas Windows form\PruebaWindowsForm\PruebaWindowsForm\obj\Debug\PruebaWindowsForm.csproj.CopyComplete
